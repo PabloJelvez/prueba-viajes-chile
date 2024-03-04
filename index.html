@@ -26,7 +26,7 @@
 </head>
 <body>
     <!-- Inicio NavBar -->
-    <nav class="navbar navbar-expand-lg fixed-top px-5" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg  fixed-top px-5" data-bs-theme="dark">
         <div class="container-fluid">
             <img src="./assets/img/viajes.svg" alt="Icono Viajes Chile" class="imgNavBar">
           <a class="navbar-brand" href="#">Viajes Chile</a>
@@ -42,7 +42,7 @@
                 <a class="nav-link" href="#quienesSomos">Quienes Somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Destacados">Destacados</a>
+                <a class="nav-link" href="#destacados">Destacados</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contacto">Contacto</a>
@@ -83,7 +83,7 @@
     <main class="bg-dark text-white">
 
     <!-- Inicio sección Quienes somos -->
-        <section class="container py-5 bg-dark" id="quienesSomos">
+        <section class="container py-5 bg-dark d-none d-md-block" id="quienesSomos">
             <h3 class="text-center my-5">¿QUIÉNES SOMOS?</h3>
             <div class="cards">
                 <div class="card bg-dark">
@@ -123,12 +123,96 @@
         </section>
     <!-- Fin sección Quienes somos -->
 
+    <!-- Inicio sección destacados -->
+    <section class="container" id="destacados">
+        <h3 class="text-center py-5">DESTACADOS</h3>
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3 py-3 gx-2 ps-4">
+                <div class="card" style="width: 95%;">
+                    <img src="./assets/img/card1.jpg" class="card-img-top" alt="Imagen paisaje 1">
+                    <div class="card-body bg-info text-white">
+                      <h5 class="card-title">Lagos y Volcanes</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 py-3 gx-2 ps-4">
+                <div class="card" style="width: 95%;">
+                    <img src="./assets/img/card2.jpg" class="card-img-top" alt="Imagen paisaje 1">
+                    <div class="card-body bg-info text-white">
+                      <h5 class="card-title">Lagos y Volcanes</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 py-3 gx-2 ps-4">
+                <div class="card" style="width: 95%;">
+                    <img src="./assets/img/card3.jpg" class="card-img-top" alt="Imagen paisaje 1">
+                    <div class="card-body bg-info text-white">
+                      <h5 class="card-title">Lagos y Volcanes</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 py-3 gx-2 ps-4">
+                <div class="card" style="width: 95%;">
+                    <img src="./assets/img/card4.jpg" class="card-img-top" alt="Imagen paisaje 1">
+                    <div class="card-body bg-info text-white">
+                      <h5 class="card-title">Lagos y Volcanes</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin sección destacados -->
+
+    <!-- Inicio sección contacto -->
+    <section class="container p-3" id="contacto">
+        <h3 class="text-center">CONTACTO</h3>
+        <form>
+            <div>
+                <label class="form-label d-block">Nombre</label>
+                <input class="form-control" type="text" placeholder="Nombre">
+            </div>
+            <div>
+                <label class="form-label d-block">Asunto</label>
+                <input class="form-control" type="text" placeholder="Asunto">
+            </div>
+            <div>
+                <label class="form-label d-block">Mensaje</label>
+                <textarea
+                class="form-control"
+                aria-label="width textarea"
+                placeholder="Escribe tu mensaje"
+                ></textarea>
+            </div>
+            <div class="pt-3">
+                <button type="button" class="btn btn-info text-white">
+                    Enviar
+                </button>
+            </div>
+
+        </form>
+
+    </section>
+    <!-- Fin sección contacto -->
+
     </main>
     <!-- Fin sección Main -->
 
     <!-- Inicio sección Footer -->
-    <footer>
-
+    <footer class="bg-info d-flex text-white p-3">
+        <div class="footerParrafo px-5 text-center">
+            <p>VIAJES CHILE</p>
+        </div>
+        <div class="footerIcons text-center">
+            <a href="https://github.com/"><i class="fa-brands fa-github px-1"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin px-1"></i></a>
+            <a href="https://twitter.com/"><i class="fa-brands fa-twitter px-1"></i></a>
+            <a href="https://web.facebook.com/"><i class="fa-brands fa-square-facebook px-1"></i></a>
+            
+        </div>
     </footer>
     <!-- Fin sección Footer -->
 </body>

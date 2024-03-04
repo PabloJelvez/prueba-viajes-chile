@@ -27,3 +27,17 @@ body{
     justify-content: space-evenly;
     gap: 5px;
 }
+
+/* Estilos Footer */
+footer{
+    font-size: 25px;
+}
+.footerParrafo{
+    width: 50%;
+}
+.footerIcons{
+    width: 50%;
+}
+footer i{
+    color: white;
+}
