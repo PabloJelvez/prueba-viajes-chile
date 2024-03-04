@@ -3,9 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Pablo Jélvez">
+    <meta name="description" content="Página sobre viajes en Chile">
+    <meta name="keywords" content="Viajes, Chile, Turismo, aventura, recomendaciones">
+    <!-- Boostrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Boostrap JS -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Google Fonts Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- JS propio -->
+    <script defer src="./assets/js/script.js"></script>
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Viajes Chile</title>
 </head>
 <body>
-    
+    <!-- Inicio NavBar -->
+    <nav class="navbar navbar-expand-lg fixed-top px-5" data-bs-theme="dark">
+        <div class="container-fluid">
+            <img src="./assets/img/viajes.svg" alt="Icono Viajes Chile" class="imgNavBar">
+          <a class="navbar-brand" href="#">Viajes Chile</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#quienesSomos">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Destacados">Destacados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Fin NavBar -->
+
+    <!-- Inicio sección Header -->
+    <header>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </header>
+    <!-- Fin sección Header -->
+
+    <!-- Inicio sección Main -->
+    <main class="bg-dark text-white">
+
+    <!-- Inicio sección Quienes somos -->
+        <section class="container py-5 bg-dark" id="quienesSomos">
+            <h3 class="text-center my-5">¿QUIÉNES SOMOS?</h3>
+            <div class="cards">
+                <div class="card bg-dark">
+                    <div class="card border-dark mb-3" style="max-width: 100%;">
+                        <div class="card-header bg-info border-dark text-white text-center">
+                            <i class="fa-solid fa-plane"></i>
+                        </div>
+                        <div class="card-body text-white bg-dark">
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum aut veritatis voluptatibus sapiente ea optio earum quasi eius quia vel. Recusandae quo vitae et eaque libero illo corrupti quibusdam. Tempora!
+                          Non eum veritatis beatae dolor quae debitis laboriosam perferendis laborum, sapiente earum commodi voluptatum explicabo asperiores harum minus rerum labore temporibus architecto expedita placeat provident voluptate. Id omnis sequi doloremque?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-dark">
+                    <div class="card border-dark mb-3" style="max-width: 100%;">
+                        <div class="card-body text-white bg-dark">
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, sapiente obcaecati molestiae quis sed ratione repudiandae fugiat sunt numquam beatae suscipit eius? Perspiciatis fugit neque dolorem expedita deleniti atque facilis.
+                          Saepe, et odit autem repellendus quidem molestiae explicabo, aspernatur maiores quas repellat optio aperiam, omnis aut possimus. Veniam, placeat beatae adipisci facere possimus libero unde eius obcaecati! Nobis, suscipit commodi?</p>
+                        </div>
+                        <div class="card-footer bg-info text-white border-dark text-center">
+                            <i class="fa-solid fa-mountain"></i>
+                        </div>
+                      </div>
+                </div>
+                <div class="card bg-dark">
+                    <div class="card border-dark mb-3" style="max-width: 100%;">
+                        <div class="card-header bg-info text-white border-dark text-center">
+                            <i class="fa-solid fa-route"></i>
+                        </div>
+                        <div class="card-body text-white bg-dark">
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum aut veritatis voluptatibus sapiente ea optio earum quasi eius quia vel. Recusandae quo vitae et eaque libero illo corrupti quibusdam. Tempora!
+                          Non eum veritatis beatae dolor quae debitis laboriosam perferendis laborum, sapiente earum commodi voluptatum explicabo asperiores harum minus rerum labore temporibus architecto expedita placeat provident voluptate. Id omnis sequi doloremque?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- Fin sección Quienes somos -->
+
+    </main>
+    <!-- Fin sección Main -->
+
+    <!-- Inicio sección Footer -->
+    <footer>
+
+    </footer>
+    <!-- Fin sección Footer -->
 </body>
 </html>
