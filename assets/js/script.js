@@ -8,15 +8,6 @@ const tooltipList = [...tooltipTriggerList].map(
 
 // Ready function de JQuery
 $(function () {
-//   $(document).scroll(function () {
-//     var a = $(".navbar").offset().top;
-//     if ($(this).scrollTop() > a) {
-//       $(".navbar").css({ "background-color": "#2796a3" });
-//     } else {
-//       $(".navbar").css({ "background-color": "transparent" });
-//     }
-//   });
-
   // Funcionalidad alert para el boton de la sección contacto
   $("#enviarCorreo").on("click", function () {
     alert("El correo fue enviado correctamente.");
