@@ -13,9 +13,15 @@ body{
 .navbar{
     background-color: #2796a3;
     color: white;
+    opacity: 0.8;
 }
 .navbar .imgNavBar{
     width: 25px;
+}
+
+/* Estilos carrusel */
+#carouselExample img{
+    aspect-ratio: 121/81;
 }
 
 /* Estilos sección Quiénes somos */
@@ -27,6 +33,14 @@ body{
     justify-content: space-evenly;
     gap: 5px;
 }
+
+/* Estilos sección contacto */
+/* estilos del tooltip de Jquery */
+.custom-tooltip {
+    --bs-tooltip-bg: aqua;
+    --bs-tooltip-color: black;
+  }
+
 
 /* Estilos Footer */
 footer{

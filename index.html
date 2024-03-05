@@ -6,6 +6,8 @@
     <meta name="author" content="Pablo Jélvez">
     <meta name="description" content="Página sobre viajes en Chile">
     <meta name="keywords" content="Viajes, Chile, Turismo, aventura, recomendaciones">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/img/favicon-16x16.png" type="image/x-icon">
     <!-- Boostrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Boostrap JS -->
@@ -84,7 +86,7 @@
 
     <!-- Inicio sección Quienes somos -->
         <section class="container py-5 bg-dark d-none d-md-block" id="quienesSomos">
-            <h3 class="text-center my-5">¿QUIÉNES SOMOS?</h3>
+            <h3 class="text-center my-5" id="titleQuienesSomos">¿QUIÉNES SOMOS?</h3>
             <div class="cards">
                 <div class="card bg-dark">
                     <div class="card border-dark mb-3" style="max-width: 100%;">
@@ -188,7 +190,14 @@
                 ></textarea>
             </div>
             <div class="pt-3">
-                <button type="button" class="btn btn-info text-white">
+                <button
+                id="enviarCorreo"
+                 type="button" 
+                 class="btn btn-info text-white"
+                 data-bs-toggle="tooltip" data-bs-placement="right"
+                 data-bs-custom-class="custom-tooltip"
+                 data-bs-title="Pincha aquí para ponerte en contacto con nosotros"
+                 >
                     Enviar
                 </button>
             </div>
